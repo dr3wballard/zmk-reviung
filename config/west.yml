@@ -17,12 +17,8 @@ manifest:
       remote: m165437
       revision: main
     - name: nicehatharry
-      remote: SethMilliken
+      remote: davidphilipbarr
       clone-depth: 1
       revision: main
-    #- name: nicehatharry
-     # remote: davidphilipbarr
-      #clone-depth: 1
-      #revision: main
   self:
     path: config
