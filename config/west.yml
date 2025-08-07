@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/M165437 #niceview gem
     - name: davidphilipbarr #nicehatharry
       url-base: https://github.com/davidphilipbarr #nicehatharry
+    - name: SethMilliken
+      url-base: https://github.com/SethMilliken
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,8 +17,12 @@ manifest:
       remote: m165437
       revision: main
     - name: nicehatharry
-      remote: davidphilipbarr
+      remote: SethMilliken
       clone-depth: 1
       revision: main
+    #- name: nicehatharry
+     # remote: davidphilipbarr
+      #clone-depth: 1
+      #revision: main
   self:
     path: config
