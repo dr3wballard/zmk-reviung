@@ -23,7 +23,7 @@ manifest:
       clone-depth: 1
       revision: main
     - name: nice-view-gem
-      remote:dr3wballard
+      remote: dr3wballard
       revision: main
   self:
     path: config
