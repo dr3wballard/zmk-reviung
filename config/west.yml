@@ -8,17 +8,22 @@ manifest:
       url-base: https://github.com/davidphilipbarr #nicehatharry
     - name: SethMilliken
       url-base: https://github.com/SethMilliken
+    - name: dr3wballard
+      url-base: https://github.com/dr3wballard
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-gem
-      remote: m165437
-      revision: main
+    #- name: nice-view-gem
+    #  remote: m165437
+    #  revision: main
     - name: nicehatharry
       remote: davidphilipbarr
       clone-depth: 1
+      revision: main
+    - name: nice-view-gem
+      remote:dr3wballard
       revision: main
   self:
     path: config
