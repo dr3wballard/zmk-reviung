@@ -22,7 +22,7 @@ manifest:
       remote: davidphilipbarr
       clone-depth: 1
       revision: main
-    - name: nice-view-gem
+    - name: nice-view-gem-single-oled
       remote: dr3wballard
       revision: main
   self:
