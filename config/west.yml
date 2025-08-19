@@ -24,6 +24,6 @@ manifest:
       revision: main
     - name: nice-view-gem-single-oled
       remote: dr3wballard
-      revision: main
+      revision: power
   self:
     path: config
